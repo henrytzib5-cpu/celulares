@@ -33,7 +33,7 @@ nav a{
        font-size: 1.4em;
        text-decoration: none;
        border-radius: 20px;
-       transition: background-color 0.10s, color 0.s;
+       transition: background-color 0.3s, color 0.3s;
         }
 nav a:hover{
           color:276CF5;
@@ -47,7 +47,26 @@ nav a:hover{
       margin: auto; 
       margin-top:50px;
       font-size: 0.9em;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: justify;
+      font-family: Bahnschrift SemiBold, sans-serif;
    }
+.centrar { 
+    text-align: center;
+		}
+.centrar img {
+width: 100%;
+max-width: 600px;
+height: auto;
+		}
+.video {
+width: 100%;
+max-width: 560px;
+aspect-ratio: 16 / 9,
+border: none;
+		}
+
  
     body {
   background-image: url(https://img.magnific.com/vector-premium/lineas-circuitos-digitales-tecnologia-futurista-abstracto-ciberespacio-fondo-azul_474511-431.jpg?semt=ais_hybrid&w=740&q=80);
@@ -55,3 +74,20 @@ nav a:hover{
   background-size:cover;
  
 }
+
+@media (max-width: 600px) {
+nav a {
+display: block;
+width: 90%;
+margin: 10px auto; 
+		}
+section {
+width: 85%;
+font.size 18 px;
+text-align: left;
+color: black;
+{
+
+		.logo h1 {
+		font-size: 32px;
+		}		
