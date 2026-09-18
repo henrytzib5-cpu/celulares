@@ -1,32 +1,33 @@
 header{
-        background-color: blue;
+        background-color: ;
         text-align:center;
+        
          }
 
-  .logo h1{
-         font-family:Times new roman,arial;
-         font-size: 42px;
-         color:white;
-         margin: 0;
+  .logo{
+         width: 85%;
+         max-width: 800px;
+         margin: 0 auto;
           }
 
-  .logo p{
-        font-family: Roboto,
-        font-size: 42px;
-        color:#000000; 
-        margin-top: 0px;
+  .logo img{
+        Display: block;
+	width: 100%;
+	height; auto;
+	margin: 0 auto;
          }   
 
 
   nav {
      width:100%;
      text-align	:center;
-     background-color: #27D6F5;
+     background-color: ;
+     margin: 0;
    }
 nav a{
        display: inline-block;
        margin: 5px;
-       padding: 12px 20px;
+       padding: 12px;
        background-color:#01026E;
        color:white;
        font-family:Times new roman, sans-serif;
@@ -43,15 +44,42 @@ nav a:hover{
 
    section {
       background-color:  #;
-      width: 60%;
-      margin: auto; 
-      margin-top:50px;
+      color: black;
+      width: 70%;
+      max-width: 900px;
+      margin: 10px auto; 
       font-size: 0.9em;
       padding: 20px;
       border-radius: 10px;
       text-align: justify;
       font-family: Bahnschrift SemiBold, sans-serif;
+      text-color: ;
+
    }
+
+
+
+section h1{
+
+		text-align: center;
+		color: black;
+		font family: Roboto;		
+				}
+
+section h2{
+
+		text-align: center;
+		color: black;
+				}
+
+section h3{
+
+		text-align: center;
+		color: black;
+				}
+
+
+
 .centrar { 
     text-align: center;
 		}
@@ -62,18 +90,30 @@ height: auto;
 		}
 .video {
 width: 100%;
-max-width: 560px;
-aspect-ratio: 16 / 9,
+max-width: 500px;
+aspect-ratio: 9 / 9,
 border: none;
 		}
 
  
     body {
-  background-image: url(https://img.magnific.com/vector-premium/lineas-circuitos-digitales-tecnologia-futurista-abstracto-ciberespacio-fondo-azul_474511-431.jpg?semt=ais_hybrid&w=740&q=80);
+  margin: 0;
+  background-image: url(../img/cf.png);
   background-attachment: fixed;
   background-size:cover;
- 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 0;
 }
+
+footer {
+		background-color: blue;
+		color: white;
+		text-align: center;
+		padding: 30px;
+		font-family: Roboto; Times New Roman;	
+}
+
 
 @media (max-width: 600px) {
 nav a {
@@ -88,6 +128,8 @@ text-align: left;
 color: black;
 {
 
+
+
 		.logo h1 {
 		font-size: 32px;
-		}		
+		}			
